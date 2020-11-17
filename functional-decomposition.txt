@@ -1,0 +1,45 @@
+Wake up and go to school
+    - Get out of bed
+        - Set alarm the night before
+        - Stop alarm and get out of the bed
+    - Go to the bathroom
+        - Walk to the bathroom
+        - Brush Teeth
+        - Use the toilet
+    - Eat
+        - Make breakfast
+            - Open fridge
+            - Take eggs
+            - Take butter
+            - Take frying pan
+            - Melt buttle
+            - Make eggs
+            - Plate it
+        - Wash dishes
+    - Attend Class
+        - Open laptop
+        - Enter Classroom
+        - Open google Meet
+        
+(mainly simple commands)
+
+
+Getting Food from a vending machine
+    - Sense for the human's input
+    - Sense if the human put enough change
+        - If doesn't put enough change do not do anythiung
+        - If yes then proceed
+    - Drop the product into the collection area
+    - Dispense change
+        - Calculate the change required
+        - Dispense proper amount of coins
+        
+(simple commands with a few if statements)
+
+
+The cookie is too big for the glass
+1. Break the cookie into smaller pieces
+2. Get a bigger glass for the milk or get a smaller cookie
+3. This can be solved with an app that anaylses the cookies size and then determines which cup would fit the cookie.
+It would then proceed to extend a robotic arm that takes the cup and fills it with milk.
+Then proceeding to dip the cookie in the milk to make sure that there are no human errors that can be made and fail to create the marvelous cookie with milk.
