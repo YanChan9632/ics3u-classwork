@@ -1,4 +1,18 @@
+QUESTION 1
+colour = input("What is your favourite colour")
+print(colour +,"? That's my favourite colour too!")
+
+QUESTION 2
 cans = int(input("How many cans: "))
 packs = int(input("How many packs: "))
 total = cans * packs
 print("There is a total of", total, "cans.")
+
+
+QUESTION 3
+h = int(input("What is the height in cm: "))
+w = int(input("what is the width in cm: "))
+l = int(input("What is the length in cm: "))
+
+volume = h*w*l
+print("The final volume is", volume, "cm")
