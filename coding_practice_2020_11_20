@@ -1,2 +1,4 @@
-color = (input("Whats your favourite colour: "))
-print("No way!", color, "is my favourite colour too!")
+cans = int(input("How many cans: "))
+packs = int(input("How many packs: "))
+total = cans * packs
+print("There is a total of", total, "cans.")
