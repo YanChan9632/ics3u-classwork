@@ -1,0 +1,42 @@
+import math
+
+
+def finding_hypotenuse(a, b):
+    hypotenuse = sqrt((a**2) + (b**2))
+    return hypotenuse
+result = find_hypotenuse(4,5)
+print(result)
+
+def taxi_fare(km):
+    m = (km*100)
+    140m = floor(m/140)
+    total = 4 + (140m * 0.25)
+    return total
+result = taxi_fare(140)
+print(result)
+
+def shipping_calculator(items_purchased):
+    if items_purchased == 1:
+        price = 10.95
+    elif items_purchased > 1:
+        amount = items_purchased - 1
+        price = 10.95 + (amount * 2.95)
+    return price
+result = shipping_calculator(5)
+print(result)
+
+
+def median(x, y, z):
+    if x < y < z or z < y < x:
+        return y
+    elif x < z < y or y < z < x:
+        return z
+    elif y < x < z or z < x < y:
+        return x
+    else:
+        return 0
+result = median(10, 5, 11)
+print(result)
+
+def main():
+    
