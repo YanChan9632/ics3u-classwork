@@ -1,0 +1,17 @@
+def center_string(terminal, word):
+    ternimal = int(input("How long is the terminal window: "))
+    word = str(input("What is the word"))
+    word_length = len(word)
+
+    half = terminal/2
+    spaces = half - word_length
+
+    return spaces
+
+
+
+def main():
+    center_string()
+
+if __name__ == "__main__":
+    main()
